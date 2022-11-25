@@ -1,0 +1,72 @@
+body {
+  background-color: aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(187, 51, 51);
+  font-size: small;
+  line-height: 25px;
+}
+
+h1, h2 {
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  line-height: 30px;
+}
+
+a {
+  color: grey;
+  text-decoration: underline;
+}
+
+img {
+  width: 300px;
+  height: 350px;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.cotainer {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
